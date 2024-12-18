@@ -4,7 +4,7 @@
 
       <div :class="2 == 1 ? 'left' : 2 == 2 ? 'left center' : 'left right'" style="backgroundColor: rgba(241, 248, 242, 0.15)">
         <el-form class="login-form" label-position="left" :label-width="1 == 3 ? '56px' : '0px'">
-          <div class="title-container"><h3 class="title" style="color: rgba(201, 0, 0, 1)">智慧课程平台登录</h3></div>
+          <div class="title-container"><h3 class="title" style="color: rgba(30, 170, 180, 1)">智慧课程平台登录</h3></div>
           <el-form-item :label="1 == 3 ? '用户名' : ''" :class="'style'+1">
             <span v-if="1 != 3" class="svg-container" style="color:rgba(85, 95, 101, 1);line-height:44px"><svg-icon icon-class="user" /></span>
             <el-input placeholder="请输入用户名" name="username" type="text" v-model="rulesForm.username" />
@@ -29,7 +29,7 @@
               :label="item.roleName"
             >{{item.roleName}}</el-radio>
           </el-form-item>
-          <el-button type="primary" @click="login()" class="loginInBt" style="padding:0;font-size:16px;border-radius:4px;height:44px;line-height:44px;width:100%;backgroundColor:rgba(201, 0, 0, 1); borderColor:rgba(201, 0, 0, 1); color:rgba(255, 255, 255, 1)">{{'1' == '1' ? '登录' : 'login'}}</el-button>
+          <el-button type="primary" @click="login()" class="loginInBt" style="padding:0;font-size:16px;border-radius:4px;height:44px;line-height:44px;width:100%;backgroundColor:rgba(30, 170, 180, 1); borderColor:rgba(30, 170, 180, 1); color:rgba(255, 255, 255, 1)">{{'1' == '1' ? '登录' : 'login'}}</el-button>
           <el-form-item class="setting">
             <!-- <div style="color:rgba(255, 0, 0, 1)" class="reset">修改密码</div> -->
           </el-form-item>
